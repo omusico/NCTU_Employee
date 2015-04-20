@@ -1,0 +1,328 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+.tablePT{
+	margin:0 auto;
+	position:relative;
+	top:100px;
+}
+#basic-modal-content {display:none;}
+#personnel_window {display:none;height:80%; width:80%;max-width:850px; max-height:600px;}
+
+#ParttimePTArea {display:none;height:80%; width:80%;max-width:850px; max-height:600px;}
+
+#copyArea {display:none;height:80%; width:80%;max-width:850px; max-height:600px;}
+#awardForIns {display:none;text-align:center;color:#FFF}
+#OutlineAlert {display:none;text-align:center;color:#FFF}
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:80%; width:80%; max-width:850px; max-height:600px; color:#bbb; background-color:#333; border:4px solid #444; padding:12px;}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+/*#simplemodal-container a.modalCloseImg {background:url(../img/basic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+*/
+#simplemodal-container h3 {color:#84b8d9;}
+
+
+.choose_select{
+	color:#FFF;
+}
+
+.choose_item{
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+}
+
+#body_item{
+	color:#FFB /*給付子項目顏色*/
+}
+
+#context{
+	text-align:left;
+	position: absolute;
+	height:95%;
+	width:99%;
+}
+
+#copycontext{
+	text-align:left;
+	position: absolute;
+	height:95%;
+	width:99%;
+	OVERFLOW-y: auto;
+}
+
+#ParttimePTContext{
+	text-align:center;
+	position: absolute;
+	height:95%;
+	width:99%;
+	OVERFLOW-y: auto;
+}
+
+#ParttimeTable th{
+	font-size:35px;
+}
+
+#ParttimeTable{
+	border:1px solid;
+	border-collapse:collapse;
+	border-spacing:1px;
+}
+
+#ptimestageArea button{
+	width:130px;
+	height:30px;
+}
+
+#PTimeCancel{
+	width:130px;
+	height:30px;
+}
+
+#ptimestageArea{
+	height:400px;
+	width:830px;
+	max-height:400px;
+	OVERFLOW-y: auto;
+	text-align:left;
+}
+
+.choose_select{
+	position:relative;
+	left:5%;
+}
+#onSearch{
+	text-align:center;
+	margin:0 auto;
+	position:absolute;
+	left:380px;
+	top:120px;
+}
+
+
+#choose_window{
+	margin:0 auto;
+	position: relative;
+	height:70%;
+	width:90%;
+	max-width:800px;
+	OVERFLOW-y: auto;
+}
+
+#award4InsTable{
+	margin:0 auto;
+	position:relative;
+	width:800;
+}
+
+#PT_count_table{
+	margin: 0 auto;
+}
+
+#menu{
+	position:absolute;
+	left:90%;
+	margin:0 auto;
+	width:120px;
+	height:60px;
+	top:10px;
+	background-color:black;
+	color:white;
+	text-align:left;
+	font-size:20px;
+}
+
+#chooseCopy{
+	cursor: default;
+	background-color:#FFF;
+	color:#000;
+	height:20px;
+	width:200px;
+	border-style:solid;
+	border-color:#ddd;
+	border-width:1px;
+}
+
+#chooseCopyContent{
+	position:absolute;
+	float:left;
+	display:none;
+	background-color:white;
+	width:60px;
+}
+
+.copyPTSNarea:hover{
+	background-color:white;
+	color:black;
+}
+
+.copyPTSNareachecked{
+	background-color:black;
+}
+
+.copyPTSNareachecked:hover{
+	background-color:white;
+	color:black;
+}
+
+.copySNPTInfo{
+	display:none;
+}
+
+.copySNInfo{
+	display:none;
+}
+
+#copyTable{
+	border:1px solid;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+#copyMsg{
+	height:80px;
+	max-height:80px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#chooseCopyText{
+	float:left;
+	width:160px;
+	height:20px;
+}
+
+#chooseCopy:hover{
+	background-color:#EEE;
+}
+/*
+	顯示複製單用途區域
+*/
+#copyListInfoArea{
+	height:120px;
+	max-height:120px;
+	OVERFLOW-y: auto;
+}
+
+.clsaligntop{
+	height:120px;
+}
+
+.clsaligntop2{
+	height:180px;
+}
+
+.selectJobSerialNo{
+	cursor: default;
+	width:203px;
+	height:20px;
+	background-color:black;
+	color:white;
+	text-align:left;
+	font-size:14px;
+}
+
+.copybtn{
+	width:64px;
+	height:36px;
+}
+
+.selectJobSerialNo:hover{
+	background-color:white;
+	color:black;
+}
+
+.iconSelect{
+	background-image:url("../pic/glyphicons-halflings.png");
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background-position:-313px -119px;
+	background-repeat:no-repeat;
+	margin-top:0px;
+	float:right;
+	border-style:solid;
+	border-width:3px;
+}
+
+#copyPTCheck{
+	max-height:150px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	cursor: default;
+}
+
+
+#clonePanel{
+	position:absolute;
+	background-color:#BAD6F4;
+	width:300px;
+	display:none;
+}
+
+#addPTPersonMsg{
+	text-align:left;
+}
+
+#overlay,#OulineAlertData {
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     text-align:center;
+     z-index: 900;
+}
+
+#OulineAlertData{
+	width:100%;
+    height:100%;
+	overflow:auto;
+	color:red;
+}
+
+#overlay{
+	visibility: hidden;
+	 width:100%;
+     height:100%;
+	background-color: #000;
+	/*
+	 filter:alpha(opacity=70);
+	 opacity:0.7;
+	 zoom:1;
+	 */
+}
+
+#retrace{
+	visibility: hidden;
+	 width:100%;
+     height:100%;
+	background-color: #000;
+}
+
+#retrace,#OulineAlertData2{
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     text-align:center;
+     z-index: 900;
+}
+
+#OulineAlertData2{
+	width:100%;
+    height:100%;
+	overflow:auto;
+	color:red;
+}

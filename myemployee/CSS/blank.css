@@ -1,0 +1,17 @@
+/*
+blank.css
+*/
+
+
+#msglist th{
+	background-color:#DDDDDD;
+}
+
+#msglist tr{
+	background-color:#c1cfb4;
+}
+
+#msglist tr:hover{
+	background-color:yellow;
+}
+
